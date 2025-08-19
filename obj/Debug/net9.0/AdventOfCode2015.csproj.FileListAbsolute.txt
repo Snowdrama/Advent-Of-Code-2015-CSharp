@@ -23,3 +23,5 @@ D:\Workspace\C#\AdventOfCode2015\bin\Debug\net9.0\Data\Day5\day5.txt
 D:\Workspace\C#\AdventOfCode2015\bin\Debug\net9.0\Data\Day5\day5_test.txt
 D:\Workspace\C#\AdventOfCode2015\bin\Debug\net9.0\Data\Day6\day6.txt
 D:\Workspace\C#\AdventOfCode2015\bin\Debug\net9.0\Data\Day6\day6_test.txt
+D:\Workspace\C#\AdventOfCode2015\bin\Debug\net9.0\Data\Day7\day7_test.txt
+D:\Workspace\C#\AdventOfCode2015\bin\Debug\net9.0\Data\Day7\day7.txt

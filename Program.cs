@@ -101,6 +101,14 @@ public class Program
                         Day6 day6newRules = new Day6(true, isTest);
                         break;
 
+                    case 7:
+                    case 7.1f:
+                        Day7 day7 = new Day7(false, isTest);
+                        break;
+                    case 7.2f:
+                        Day7 day7newRules = new Day7(true, isTest);
+                        break;
+
 
 
 
