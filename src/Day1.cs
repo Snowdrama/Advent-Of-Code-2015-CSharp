@@ -1,0 +1,40 @@
+﻿namespace AdventOfCode2015
+{
+    public class Day1
+    {
+        public Day1(bool findBasement = false)
+        {
+            Console.WriteLine("Reading Input from Data/Day1/day1.txt");
+
+            //advent of code 2015 day 1
+            string input = System.IO.File.ReadAllText("Data/Day1/day1.txt");
+            int floor = 0;
+            Console.WriteLine($"Number of total instructions is: {input.Length}");
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (input[i] == '(')
+                {
+                    floor++;
+                }
+                else if (input[i] == ')')
+                {
+                    floor--;
+                }
+                else
+                {
+                    Console.WriteLine($"Invalid character found at pos {i}: {input[i]}");
+                    continue;
+                }
+                if (findBasement)
+                {
+                    if (floor == -1)
+                    {
+                        Console.WriteLine("Basement entered at position: " + (i + 1));
+                        return;
+                    }
+                }
+            }
+            Console.WriteLine("Final floor found: " + floor);
+        }
+    }
+}
