@@ -2,9 +2,17 @@
 {
     internal class Day2
     {
-        public Day2()
+        public Day2(bool findRibbon = false, bool isTest = false)
         {
-            string[] input = System.IO.File.ReadAllLines("Data/Day2/day2.txt");
+            string[] input;
+            if (isTest)
+            {
+                input = System.IO.File.ReadAllLines("Data/Day2/day2_test.txt"); ;
+            }
+            else
+            {
+                input = System.IO.File.ReadAllLines("Data/Day2/day2.txt");
+            }
             Console.WriteLine($"Number of Presents: {input.Length}");
             double totalSquareFeet = 0;
             double totalRibbonLength = 0;
@@ -36,21 +44,26 @@
                     totalSquareFeet += finalSize;
                     Console.WriteLine($"Present sized: {line} needs: {finalSize} total square feet of wrappiing paper");
 
+                    if (findRibbon)
+                    {
+                        double[] sides = new double[] { l, w, h };
 
-                    double[] sides = new double[] { l, w, h };
+                        //sort in order of size
+                        sides = sides.OrderBy(x => x).ToArray();
 
-                    //sort in order of size
-                    sides = sides.OrderBy(x => x).ToArray();
+                        //we can use 0 and 1 to get the smallest sides
+                        double ribbonLength = 2 * (sides[0] + sides[1]) + (l * w * h);
 
-                    //we can use 0 and 1 to get the smallest sides
-                    double ribbonLength = 2 * (sides[0] + sides[1]) + (l * w * h);
-
-                    Console.WriteLine($"Present Sized: {line} needs: {ribbonLength} total feet of ribbon.");
-                    totalRibbonLength += ribbonLength;
+                        Console.WriteLine($"Present Sized: {line} needs: {ribbonLength} total feet of ribbon.");
+                        totalRibbonLength += ribbonLength;
+                    }
                 }
             }
             Console.WriteLine($"Total square feet of wrapping paper needed for all presents is: {totalSquareFeet}");
-            Console.WriteLine($"Total square feet of ribbon needed for all presents is: {totalRibbonLength}");
+            if (findRibbon)
+            {
+                Console.WriteLine($"Total square feet of ribbon needed for all presents is: {totalRibbonLength}");
+            }
         }
     }
 }

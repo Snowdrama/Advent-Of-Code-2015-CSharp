@@ -2,12 +2,18 @@
 {
     public class Day1
     {
-        public Day1(bool findBasement = false)
+        public Day1(bool findBasement = false, bool isTest = false)
         {
-            Console.WriteLine("Reading Input from Data/Day1/day1.txt");
+            string input;
+            if (isTest)
+            {
+                input = System.IO.File.ReadAllText("Data/Day1/day1_test.txt"); ;
+            }
+            else
+            {
+                input = System.IO.File.ReadAllText("Data/Day1/day1.txt");
+            }
 
-            //advent of code 2015 day 1
-            string input = System.IO.File.ReadAllText("Data/Day1/day1.txt");
             int floor = 0;
             Console.WriteLine($"Number of total instructions is: {input.Length}");
             for (int i = 0; i < input.Length; i++)
@@ -35,6 +41,7 @@
                 }
             }
             Console.WriteLine("Final floor found: " + floor);
+
         }
     }
 }

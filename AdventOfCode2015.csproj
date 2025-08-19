@@ -15,12 +15,12 @@
     </ItemGroup>
     <ItemGroup>
       <Compile Remove="Data\NewFolder1\**" />
-      <Compile Remove="Data\NewFolder\**" />
       <Content Remove="Data\NewFolder1\**" />
-      <Content Remove="Data\NewFolder\**" />
       <EmbeddedResource Remove="Data\NewFolder1\**" />
-      <EmbeddedResource Remove="Data\NewFolder\**" />
       <None Remove="Data\NewFolder1\**" />
-      <None Remove="Data\NewFolder\**" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Data\Day3\" />
+      <Folder Include="Data\Day6\" />
     </ItemGroup>
 </Project>
