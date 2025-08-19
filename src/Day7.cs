@@ -7,15 +7,26 @@
         Dictionary<string, Wire> wires;
         public Day7(bool newRules = false, bool isTest = false)
         {
-            string[] input;
-            if (isTest)
-            {
-                input = System.IO.File.ReadAllLines("Data/Day7/day7_test.txt"); ;
-            }
-            else
-            {
-                input = System.IO.File.ReadAllLines("Data/Day7/day7.txt");
-            }
+            //string[] input;
+            //if (isTest)
+            //{
+            //    input = System.IO.File.ReadAllLines("Data/Day7/day7_test.txt"); ;
+            //}
+            //else
+            //{
+            //    input = System.IO.File.ReadAllLines("Data/Day7/day7.txt");
+            //}
+
+
+            // "Hi I'm John, I like Pepperoni Pizza and Video Games!"
+            // "Hi I'm {name}, I like {food} and {activity}!"
+            string input = "Hi I'm John, I like Pepperoni Pizza and Video Games";
+            string format = "Hi I'm {name}, I like {food} and {activity}!";
+
+            ParseHelper.Parse(input, format, out Dictionary<string, string> output);
+
+            return;
+
 
             //manual example:
             Wire x = new Wire("x");
@@ -62,6 +73,30 @@
             Console.WriteLine(x.ToString()); //x: 123
             Console.WriteLine(y.ToString()); //y: 456
         }
+
+        public enum InstructionType
+        {
+            Signal,
+            Gate,
+        }
+        public abstract class Instruction { }
+        public class GateInstruction : Instruction
+        {
+            public GateType type;
+            public string? gateId;
+            public string? wireId;
+        }
+        public class SignalInstruction : Instruction
+        {
+            public string? wireId;
+            public ushort powerValue;
+        }
+        public void ParseInstructions(string[] instructions)
+        {
+
+        }
+
+
 
         public enum ConnectionType
         {
