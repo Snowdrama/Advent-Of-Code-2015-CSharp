@@ -1,6 +1,6 @@
 ﻿public class ParseHelper
 {
-    public static void Parse(string input, string format, out Dictionary<string, string> output)
+    public static bool TryParse(string input, string format, out Dictionary<string, string> output)
     {
         output = new Dictionary<string, string>();
 
@@ -80,32 +80,53 @@
             }
         }
 
+        lines = lines.Where(x => !string.IsNullOrEmpty(x)).ToList();
+        ConsoleEx.Cyan($"Splitting string '{input}' by:");
+        for (int i = 0; i < lines.Count; i++)
+        {
+            ConsoleEx.Green($"Lines[{i}]: {lines[i]}");
+        }
+
+        //we sort the lines by most specific to least specific
+        //this prevents splitting by empty space before strings with spaces
+        lines = lines.OrderByDescending(x => x.Length).ToList();
         //split input by lines
         //we need to trim empty splits in the case of the start or end being a line
         //it will result in the first/last value splitting and being empty
         var split = input.Split(lines.ToArray(), StringSplitOptions.TrimEntries).Where(x => !string.IsNullOrEmpty(x)).ToList();
 
+        ConsoleEx.Cyan($"Split input line '{input}':");
+        for (int j = 0; j < split.Count; j++)
+        {
+            ConsoleEx.Green($"Split[{j}]: {split[j]}");
+        }
+
         //after removing empty the key and split count should be equal...
         if (split.Count != keys.Count)
         {
-
-            for (int i = 0; i < split.Count; i++)
+            for (int j = 0; j < lines.Count; j++)
             {
-                ConsoleEx.Red($"Split[{i}]: {split[i]}");
+                ConsoleEx.Red($"Lines[{j}]: {lines[j]}");
             }
 
-            for (int i = 0; i < keys.Count; i++)
+            for (int j = 0; j < split.Count; j++)
             {
-                ConsoleEx.Red($"Keys[{i}]: {keys[i]}");
+                ConsoleEx.Red($"Split[{j}]: {split[j]}");
+            }
+
+            for (int j = 0; j < keys.Count; j++)
+            {
+                ConsoleEx.Red($"Keys[{j}]: {keys[j]}");
             }
             throw new ArgumentException($"Split count {split.Count} != key count {keys.Count}. " +
                 $"Do you have any {{{{overlapping}}keys}} or {{keys}}{{with}}{{no}}{{characters}}{{between}}?");
         }
 
         //then we can assign to output!
-        for (int i = 0; i < keys.Count; i++)
+        for (int j = 0; j < keys.Count; j++)
         {
-            output.Add(keys[i], split[i]);
+            output.Add(keys[j], split[j]);
         }
+        return true;
     }
 }

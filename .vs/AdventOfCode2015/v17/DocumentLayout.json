@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\Workspace\\C#\\AdventOfCode2015\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\day7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\common\\parsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\common\\parsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day7\\gate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\day7\\gate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day7\\day7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\day7\\day7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day7\\wire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\day7\\wire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day7\\signal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\day7\\signal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\data\\day7\\day7.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:data\\day7\\day7.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +42,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ParseHelper.cs",
               "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\common\\ParseHelper.cs",
               "RelativeDocumentMoniker": "src\\common\\ParseHelper.cs",
               "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\common\\ParseHelper.cs",
               "RelativeToolTip": "src\\common\\ParseHelper.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAuwGcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwIMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T11:39:02.652Z",
+              "WhenOpened": "2025-08-20T04:57:09.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Signal.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\Signal.cs",
+              "RelativeDocumentMoniker": "src\\Day7\\Signal.cs",
+              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\Signal.cs",
+              "RelativeToolTip": "src\\Day7\\Signal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T04:42:08.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gate.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\Gate.cs",
+              "RelativeDocumentMoniker": "src\\Day7\\Gate.cs",
+              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\Gate.cs",
+              "RelativeToolTip": "src\\Day7\\Gate.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwDEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T02:54:50.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Wire.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\Wire.cs",
+              "RelativeDocumentMoniker": "src\\Day7\\Wire.cs",
+              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\Wire.cs",
+              "RelativeToolTip": "src\\Day7\\Wire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T02:54:02.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "day7.txt",
+              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\Data\\Day7\\day7.txt",
+              "RelativeDocumentMoniker": "Data\\Day7\\day7.txt",
+              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\Data\\Day7\\day7.txt",
+              "RelativeToolTip": "Data\\Day7\\day7.txt",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-19T19:04:55.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Day7.cs",
-              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7.cs",
-              "RelativeDocumentMoniker": "src\\Day7.cs",
-              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7.cs",
-              "RelativeToolTip": "src\\Day7.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wB0AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\Day7.cs",
+              "RelativeDocumentMoniker": "src\\Day7\\Day7.cs",
+              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\Day7.cs",
+              "RelativeToolTip": "src\\Day7\\Day7.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwHAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T05:14:47.597Z",
               "EditorCaption": ""
