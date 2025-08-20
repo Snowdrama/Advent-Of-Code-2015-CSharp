@@ -1,11 +1,8 @@
-﻿namespace AdventOfCode2015
+﻿namespace AdventOfCode2015.Day7
 {
-    internal partial class Day7
+    public struct WireConnection
     {
-        public struct WireConnection
-        {
-            public Gate Gate { get; set; }
-            public ConnectionType ConnectionType { get; set; }
-        }
+        public Gate Gate { get; set; }
+        public ConnectionType ConnectionType { get; set; }
     }
 }

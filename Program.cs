@@ -1,4 +1,5 @@
 ﻿using AdventOfCode2015;
+using AdventOfCode2015.Day7;
 public class Program
 {
     public static void Main(string[] args)
@@ -108,10 +109,6 @@ public class Program
                     case 7.2f:
                         Day7 day7newRules = new Day7(true, isTest);
                         break;
-
-
-
-
 
 
                     default:

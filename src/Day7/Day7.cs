@@ -1,4 +1,4 @@
-﻿namespace AdventOfCode2015
+﻿namespace AdventOfCode2015.Day7
 {
     //I know they gave the hint that most languages have a thing for emulating this...
     //but I wanted to challenge myself to write it by hand lol

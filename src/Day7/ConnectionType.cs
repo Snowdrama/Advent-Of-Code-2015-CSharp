@@ -1,11 +1,8 @@
-﻿namespace AdventOfCode2015
+﻿namespace AdventOfCode2015.Day7
 {
-    internal partial class Day7
+    public enum ConnectionType
     {
-        public enum ConnectionType
-        {
-            Left = 1,
-            Right = 2,
-        }
+        Left = 1,
+        Right = 2,
     }
 }

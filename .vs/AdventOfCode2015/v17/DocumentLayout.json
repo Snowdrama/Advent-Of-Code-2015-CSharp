@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Workspace\\C#\\AdventOfCode2015\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\common\\parsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\common\\parsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day7\\gate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\day7\\gate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day7\\day7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\day7\\day7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day7\\wireconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\day7\\wireconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day7\\wire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +21,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day7\\signal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\day7\\signal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day7\\gatetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\day7\\gatetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day7\\gate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\day7\\gate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day7\\connectiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\day7\\connectiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\common\\parsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\common\\parsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\data\\day7\\day7.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -43,12 +59,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAgwAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T05:00:42.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConnectionType.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\ConnectionType.cs",
+              "RelativeDocumentMoniker": "src\\Day7\\ConnectionType.cs",
+              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\ConnectionType.cs",
+              "RelativeToolTip": "src\\Day7\\ConnectionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T04:59:37.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GateType.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\GateType.cs",
+              "RelativeDocumentMoniker": "src\\Day7\\GateType.cs",
+              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\GateType.cs",
+              "RelativeToolTip": "src\\Day7\\GateType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T04:59:31.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WireConnection.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\WireConnection.cs",
+              "RelativeDocumentMoniker": "src\\Day7\\WireConnection.cs",
+              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\WireConnection.cs",
+              "RelativeToolTip": "src\\Day7\\WireConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T04:59:24.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ParseHelper.cs",
               "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\common\\ParseHelper.cs",
               "RelativeDocumentMoniker": "src\\common\\ParseHelper.cs",
               "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\common\\ParseHelper.cs",
               "RelativeToolTip": "src\\common\\ParseHelper.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwIMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T04:57:09.292Z",
               "EditorCaption": ""
@@ -61,20 +129,20 @@
               "RelativeDocumentMoniker": "src\\Day7\\Signal.cs",
               "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\Signal.cs",
               "RelativeToolTip": "src\\Day7\\Signal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T04:42:08.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Gate.cs",
               "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\Gate.cs",
               "RelativeDocumentMoniker": "src\\Day7\\Gate.cs",
               "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\Gate.cs",
               "RelativeToolTip": "src\\Day7\\Gate.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAcwDEAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAwwHUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T02:54:50.619Z",
               "EditorCaption": ""
@@ -87,14 +155,14 @@
               "RelativeDocumentMoniker": "src\\Day7\\Wire.cs",
               "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\Wire.cs",
               "RelativeToolTip": "src\\Day7\\Wire.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA9wFgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T02:54:02.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "day7.txt",
               "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\Data\\Day7\\day7.txt",
               "RelativeDocumentMoniker": "Data\\Day7\\day7.txt",
@@ -102,18 +170,17 @@
               "RelativeToolTip": "Data\\Day7\\day7.txt",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-08-19T19:04:55.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T19:04:55.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Day7.cs",
               "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\Day7.cs",
               "RelativeDocumentMoniker": "src\\Day7\\Day7.cs",
               "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day7\\Day7.cs",
               "RelativeToolTip": "src\\Day7\\Day7.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAwwHAAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T05:14:47.597Z",
               "EditorCaption": ""
