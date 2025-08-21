@@ -1,5 +1,7 @@
 ﻿using AdventOfCode2015;
 using AdventOfCode2015.Day7;
+using AdventOfCode2015.Day8;
+using AdventOfCode2015.Day9;
 public class Program
 {
     public static void Main(string[] args)
@@ -108,6 +110,21 @@ public class Program
                         break;
                     case 7.2f:
                         Day7 day7newRules = new Day7(true, isTest);
+                        break;
+
+                    case 8:
+                    case 8.1f:
+                        Day8 day8 = new Day8(false, isTest);
+                        break;
+                    case 8.2f:
+                        Day8 day8newRules = new Day8(true, isTest);
+                        break;
+                    case 9:
+                    case 9.1f:
+                        Day9 day9 = new Day9(false, isTest);
+                        break;
+                    case 9.2f:
+                        Day9 day9newRules = new Day9(true, isTest);
                         break;
 
 
