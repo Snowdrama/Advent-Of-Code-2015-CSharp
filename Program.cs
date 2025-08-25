@@ -127,6 +127,38 @@ public class Program
                         Day9 day9newRules = new Day9(true, isTest);
                         break;
 
+                    case 10:
+                    case 10.1f:
+                        Day10 day10 = new Day10(false, isTest);
+                        break;
+                    case 10.2f:
+                        Day10 day10newRules = new Day10(true, isTest);
+                        break;
+
+                    case 11:
+                    case 11.1f:
+                        Day11 day11 = new Day11();
+                        break;
+                    case 11.2f:
+                        Day11 day11newRules = new Day11();
+                        break;
+
+                    case 12:
+                    case 12.1f:
+                        Day12 day12 = new Day12(false, isTest);
+                        break;
+                    case 12.2f:
+                        Day12 day12newRules = new Day12(true, isTest);
+                        break;
+
+                    case 13:
+                    case 13.1f:
+                        Day13 day13 = new Day13(false, isTest);
+                        break;
+                    case 13.2f:
+                        Day13 day13newRules = new Day13(true, isTest);
+                        break;
+
 
                     default:
                         Console.WriteLine("Invalid input. Please enter a valid day number or 'exit' to quit.");

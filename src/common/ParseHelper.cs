@@ -43,7 +43,7 @@
                 //mark the end as the character before the {
                 end = pos;
 
-                ConsoleEx.Blue($"found open, getting line... {format.Substring(start, end - start)}");
+                //ConsoleEx.Blue($"found open, getting line... {format.Substring(start, end - start)}");
                 //add the line range we currently have
                 lines.Add(format.Substring(start, end - start));
 
@@ -56,7 +56,7 @@
                 //mark the end as the character before the }
                 end = pos;
 
-                ConsoleEx.Blue($"found close, getting key... {format.Substring(start, end - start)}");
+                //ConsoleEx.Blue($"found close, getting key... {format.Substring(start, end - start)}");
                 //add the key as the range we currently have
                 keys.Add(format.Substring(start, end - start));
 
@@ -73,7 +73,7 @@
                 //special case for the end of the line
                 end = pos;
 
-                ConsoleEx.Blue($"end of string, getting line... {format.Substring(start, end - start)}");
+                //ConsoleEx.Blue($"end of string, getting line... {format.Substring(start, end - start)}");
 
                 //add the line range we currently have
                 lines.Add(format.Substring(start, end - start));
@@ -81,10 +81,10 @@
         }
 
         lines = lines.Where(x => !string.IsNullOrEmpty(x)).ToList();
-        ConsoleEx.Cyan($"Splitting string '{input}' by:");
+        //ConsoleEx.Cyan($"Splitting string '{input}' by:");
         for (int i = 0; i < lines.Count; i++)
         {
-            ConsoleEx.Green($"Lines[{i}]: {lines[i]}");
+            //ConsoleEx.Green($"Lines[{i}]: {lines[i]}");
         }
 
         //we sort the lines by most specific to least specific
@@ -95,10 +95,10 @@
         //it will result in the first/last value splitting and being empty
         var split = input.Split(lines.ToArray(), StringSplitOptions.TrimEntries).Where(x => !string.IsNullOrEmpty(x)).ToList();
 
-        ConsoleEx.Cyan($"Split input line '{input}':");
+        //ConsoleEx.Cyan($"Split input line '{input}':");
         for (int j = 0; j < split.Count; j++)
         {
-            ConsoleEx.Green($"Split[{j}]: {split[j]}");
+            //ConsoleEx.Green($"Split[{j}]: {split[j]}");
         }
 
         //after removing empty the key and split count should be equal...

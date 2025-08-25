@@ -14,16 +14,17 @@
 		</Content>
     </ItemGroup>
     <ItemGroup>
-      <Compile Remove="Data\NewFolder1\**" />
-      <Content Remove="Data\NewFolder1\**" />
-      <EmbeddedResource Remove="Data\NewFolder1\**" />
-      <None Remove="Data\NewFolder1\**" />
+      <Compile Remove="Data\Day13_Original.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="src\Day13_Original.cs" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Data\Day3\" />
       <Folder Include="Data\Day6\" />
       <Folder Include="Data\Day7\" />
       <Folder Include="Data\Day8\" />
+      <Folder Include="Data\NewFolder1\" />
       <Folder Include="Data\NewFolder\" />
     </ItemGroup>
 </Project>

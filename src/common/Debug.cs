@@ -1,39 +1,81 @@
 ﻿public static class ConsoleEx
 {
-    public static void Red(string output)
+    public static void Red(string output, bool writeLine = true)
     {
         System.Console.ForegroundColor = ConsoleColor.Red;
-        System.Console.WriteLine(output);
+        if (writeLine)
+        {
+            System.Console.WriteLine(output);
+        }
+        else
+        {
+            System.Console.Write(output);
+        }
         System.Console.ResetColor();
     }
-    public static void Blue(string output)
+    public static void Blue(string output, bool writeLine = true)
     {
         System.Console.ForegroundColor = ConsoleColor.Blue;
-        System.Console.WriteLine(output);
+        if (writeLine)
+        {
+            System.Console.WriteLine(output);
+        }
+        else
+        {
+            System.Console.Write(output);
+        }
         System.Console.ResetColor();
     }
-    public static void Green(string output)
+    public static void Green(string output, bool writeLine = true)
     {
         System.Console.ForegroundColor = ConsoleColor.Green;
-        System.Console.WriteLine(output);
+        if (writeLine)
+        {
+            System.Console.WriteLine(output);
+        }
+        else
+        {
+            System.Console.Write(output);
+        }
         System.Console.ResetColor();
     }
-    public static void Cyan(string output)
+    public static void Cyan(string output, bool writeLine = true)
     {
         System.Console.ForegroundColor = ConsoleColor.Cyan;
-        System.Console.WriteLine(output);
+        if (writeLine)
+        {
+            System.Console.WriteLine(output);
+        }
+        else
+        {
+            System.Console.Write(output);
+        }
         System.Console.ResetColor();
     }
-    public static void Magenta(string output)
+    public static void Magenta(string output, bool writeLine = true)
     {
         System.Console.ForegroundColor = ConsoleColor.Magenta;
-        System.Console.WriteLine(output);
+        if (writeLine)
+        {
+            System.Console.WriteLine(output);
+        }
+        else
+        {
+            System.Console.Write(output);
+        }
         System.Console.ResetColor();
     }
-    public static void Yellow(string output)
+    public static void Yellow(string output, bool writeLine = true)
     {
         System.Console.ForegroundColor = ConsoleColor.Yellow;
-        System.Console.WriteLine(output);
+        if (writeLine)
+        {
+            System.Console.WriteLine(output);
+        }
+        else
+        {
+            System.Console.Write(output);
+        }
         System.Console.ResetColor();
     }
 
@@ -46,8 +88,24 @@
         Console.Write(output);
     }
 
-    public static string? ReadLine()
+    public static string? ReadLine(string lineToDisplay = "", ConsoleColor color = ConsoleColor.White)
     {
+        System.Console.ForegroundColor = color;
+        System.Console.WriteLine(lineToDisplay);
+        System.Console.ResetColor();
         return Console.ReadLine();
+    }
+
+    static int waitingAnimIndex;
+    static char[] waitingAnim = new char[] { '|', '\\', '-', '/' };
+    static char waitingCursor = '|';
+    public static void DrawWaitingThing(string extra = "")
+    {
+        var pos = Console.GetCursorPosition();
+        waitingAnimIndex = (waitingAnimIndex + 1) % waitingAnim.Length;
+        waitingCursor = waitingAnim[waitingAnimIndex];
+        Console.SetCursorPosition(20, 0);
+        Console.Write($"{waitingCursor} {extra}");
+        Console.SetCursorPosition(pos.Left, pos.Top);
     }
 }

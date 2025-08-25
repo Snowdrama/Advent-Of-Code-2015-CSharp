@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Workspace\\C#\\AdventOfCode2015\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day9\\day9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\day9\\day9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\day13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\common\\ienumeratorextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\common\\ienumeratorextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\common\\alg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\common\\alg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|d:\\workspace\\c#\\adventofcode2015\\src\\day11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58940ED5-FD96-4C58-8838-2ADEEE784323}|AdventOfCode2015.csproj|solutionrelative:src\\day11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,27 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwGQAAAAzAAAAAAAAAA==",
+              "Title": "IEnumeratorExtension.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\common\\IEnumeratorExtension.cs",
+              "RelativeDocumentMoniker": "src\\common\\IEnumeratorExtension.cs",
+              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\common\\IEnumeratorExtension.cs",
+              "RelativeToolTip": "src\\common\\IEnumeratorExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T06:10:18.905Z",
+              "WhenOpened": "2025-08-24T20:32:50.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Alg.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\common\\Alg.cs",
+              "RelativeDocumentMoniker": "src\\common\\Alg.cs",
+              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\common\\Alg.cs",
+              "RelativeToolTip": "src\\common\\Alg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T21:31:28.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Day11.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day11.cs",
+              "RelativeDocumentMoniker": "src\\Day11.cs",
+              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day11.cs",
+              "RelativeToolTip": "src\\Day11.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T20:22:31.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Day9.cs",
-              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day9\\Day9.cs",
-              "RelativeDocumentMoniker": "src\\Day9\\Day9.cs",
-              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day9\\Day9.cs",
-              "RelativeToolTip": "src\\Day9\\Day9.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAiwG8AAAAnAAAAAAAAAA==",
+              "Title": "Day13.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day13.cs",
+              "RelativeDocumentMoniker": "src\\Day13.cs",
+              "ToolTip": "D:\\Workspace\\C#\\AdventOfCode2015\\src\\Day13.cs",
+              "RelativeToolTip": "src\\Day13.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwEUAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T03:33:16.66Z",
+              "WhenOpened": "2025-08-23T00:00:58.036Z",
               "EditorCaption": ""
             }
           ]
